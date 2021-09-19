@@ -1,0 +1,44 @@
+.navigation{
+    grid-area: navigation;
+    border: 1px solid black;
+}
+.left-column{
+    grid-area: left-column;
+    border: 1px solid black;
+}
+.right-column{
+    grid-area: right-column;
+    border: 1px solid black;
+}
+#wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3em 18em;
+    grid-template-areas: "navigation navigation"
+    "left-column right-column";
+    gap: 2px;
+    
+}
+.image:hover{
+    width: 235px;
+    border-radius:1px;
+}
+.balu:hover{
+    color:red;
+    font-size: 16px;
+    background:#DDDDDD;
+}
+#balu4:hover{
+    background:green;
+}
+.balu2:hover{
+    background:yellow;
+}
+.balu3:hover{
+    background:yellow;
+}
+.balu5:hover{
+    color:#3b5998;
+    font-size: 16px;
+    background:#DDDDDD;
+}
